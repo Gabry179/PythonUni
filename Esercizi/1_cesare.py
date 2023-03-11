@@ -8,7 +8,7 @@ def ruota_parole():
                 ascii = chr(ord(i)+1)
                 nuovaStr += ascii
             else:
-                ascii = chr(ord('a'))
+                ascii = chr(ord(i)+1-26)
                 nuovaStr += ascii
         else:
             print(f"Il carattere {i} non e' valido.")
@@ -16,3 +16,4 @@ def ruota_parole():
 
 stringa = ruota_parole()
 print(stringa)
+print(ord('z'))
