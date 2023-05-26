@@ -33,5 +33,5 @@ def merge_sort(arr):
         
         return arr
 
-list = [5, 2, 0, 6, 4, 9, 3]
+list = [5, 4, 6, 2, 7, 1]
 print(merge_sort(list))
